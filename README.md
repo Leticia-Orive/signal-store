@@ -45,5 +45,10 @@ Instalacion de proyecto de angular 18 un crud con su carrito
         2. Vamos a trabajar con los signalSlice
             https://ngxtension.netlify.app/utilities/signals/signal-slice/
 
+    Creamos el componente header
+        ng g c shared/ui/header -s (si pones -s se nos añade todo menos el componente.css o scss)
+
+        1.Para poderlo utilizar necesitamos que en el app.component.ts se importe el headerComponent
+
 
 
