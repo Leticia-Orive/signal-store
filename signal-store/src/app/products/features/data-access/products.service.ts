@@ -1,7 +1,8 @@
-import { HttpClient } from "@angular/common/http";
-import { inject, Injectable } from "@angular/core";
+
+import {  Injectable } from "@angular/core";
 import { Observable } from "rxjs";
 import { BaseHttpService } from "../../../shared/ui/header/data-access/base-http.service";
+import { Product } from "../../../shared/interfaces/product.interface";
 
 @Injectable({providedIn: 'root'})
 
@@ -10,8 +11,8 @@ export class ProductsService extends BaseHttpService {
    private http = inject(HttpClient);
    */
 
-  getProducts() {
+  getProducts():Observable<Product[]> {
   //  return this.http.get('https://fakestoreapi.com/products');
-    return this.http.get(`${this.apiUrl}/products`);	
+    return this.http.get<any[]>(`${this.apiUrl}/products`);	
   }
 }
