@@ -55,6 +55,13 @@ Instalacion de proyecto de angular 18 un crud con su carrito
 
         1.Vamos a buscar navbar
             https://flowbite.com/docs/components/navbar/
+    
+    Rutas de la aplicacion (Productos)
+       1. Creamos el componente: 
+            ng g c products/features/product-list -s (lista)
+            ng g c products/features/product-detail -s (detalle)
+        2. Para no estar añadiendo todo los productos nos vamos a esta pagina
+            https://fakestoreapi.com/docs
 
 
 
