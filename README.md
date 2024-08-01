@@ -10,3 +10,30 @@ Instalacion de proyecto de angular 18 un crud con su carrito
         cd nombre del proyecto
     1.4 Arrancamos el proyecto:
         ng serve --o 
+
+    Instalacion de Tailwind CSS en Angular
+        https://tailwindcss.com/docs/guides/angular
+    
+        1. Instalar Tailwind CSS
+            Instale tailwindcssmediante npm y luego ejecute el comando init para generar un archivo. tailwind.config.js
+                npm install -D tailwindcss postcss autoprefixer
+                npx tailwindcss init
+        2. Configurar las rutas de las plantillas
+            Agregue las rutas a todos los archivos de plantilla en su tailwind.config.jsarchivo.
+                module.exports = {
+                    content: [
+                        "./src/**/*.{html,ts}", Esto es lo que hay que añadir
+                    ],
+                }
+        3. Añade las directivas Tailwind a tu CSS
+            Agregue las @tailwinddirectivas para cada una de las capas de Tailwind a su archivo. ./src/styles.css
+                @tailwind base;
+                @tailwind components;
+                @tailwind utilities;
+        4. Comience a utilizar Tailwind en su proyecto
+            Comience a utilizar las clases de utilidad de Tailwind para darle estilo a su contenido. (app.component.html)
+                <h1 class="text-3xl font-bold underline">
+                    Hello world!
+                </h1>
+
+
