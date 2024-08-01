@@ -50,5 +50,11 @@ Instalacion de proyecto de angular 18 un crud con su carrito
 
         1.Para poderlo utilizar necesitamos que en el app.component.ts se importe el headerComponent
 
+    Vamos a la pagina de Flowbite
+        https://flowbite.com/
+
+        1.Vamos a buscar navbar
+            https://flowbite.com/docs/components/navbar/
+
 
 
