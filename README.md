@@ -63,5 +63,6 @@ Instalacion de proyecto de angular 18 un crud con su carrito
         2. Para no estar añadiendo todo los productos nos vamos a esta pagina
             https://fakestoreapi.com/docs
 
-
+    Instalamos enviroments en angular 18 porque desde la version 16 ya lo tienes que instalar tu
+    ng g environments
 
