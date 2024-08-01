@@ -64,5 +64,12 @@ Instalacion de proyecto de angular 18 un crud con su carrito
             https://fakestoreapi.com/docs
 
     Instalamos enviroments en angular 18 porque desde la version 16 ya lo tienes que instalar tu
-    ng g environments
+        ng g environments
+
+    Instalamos eslint + prettier
+        https://gist.github.com/eneajaho/17bbcf71c44eabf56d404b028572b97b
+        ESLint
+            ng add @angular-eslint/schematics
+        Prettier
+            npm install prettier prettier-eslint eslint-config-prettier eslint-plugin-prettier --save-dev 
 
