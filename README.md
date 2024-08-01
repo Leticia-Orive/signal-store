@@ -35,5 +35,15 @@ Instalacion de proyecto de angular 18 un crud con su carrito
                 <h1 class="text-3xl font-bold underline">
                     Hello world!
                 </h1>
+    
+    Instalacion de la extension ngxtension
+        https://ngxtension.netlify.app/getting-started/introduction/
+        https://ngxtension.netlify.app/getting-started/installation/
+
+        1.Instalacion de ngxtension
+            ng add ngxtension
+        2. Vamos a trabajar con los signalSlice
+            https://ngxtension.netlify.app/utilities/signals/signal-slice/
+
 
 
